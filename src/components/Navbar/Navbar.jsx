@@ -1,5 +1,6 @@
 import React from "react";
 import "./Navbar.css";
+import { FiDownload } from "react-icons/fi";
 
 const Navbar = () => {
   return (
@@ -23,6 +24,7 @@ const Navbar = () => {
       </ul>
       <button className="btn">
         Resume
+        <FiDownload color="white"/>
       </button>
     </nav>
   );
